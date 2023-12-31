@@ -1,10 +1,7 @@
-# Onkar2102.github.io
-
 ## :wave: I am Onkar Eknath Shelar 🔭
 
 ---
 
-### ONKAR EKNATH SHELAR
 Rochester, NY, USA  
 Email: [onkarshelar21297@gmail.com](mailto:onkarshelar21297@gmail.com)    
 LinkedIn: [https://www.linkedin.com/in/onkarshelar/](https://www.linkedin.com/in/onkarshelar/)
@@ -13,21 +10,6 @@ LinkedIn: [https://www.linkedin.com/in/onkarshelar/](https://www.linkedin.com/in
 
 ### OBJECTIVE
 Driven machine learning enthusiast, poised to apply Advanced Analytics and Machine Learning expertise to develop cutting-edge AI solutions, while embracing challenges and driving impactful outcomes.
-
----
-
-### ACADEMIC QUALIFICATION
-- **Master of Science in Data Science**  
-  _Rochester Institute of Technology, USA_  
-  August 2023 - Present
-
-- **Post-Graduate Diploma in Big Data Analytics, 83.00%**  
-  _Centre for Development of Advance Computing (CDAC), India_  
-  Sept 2021 - April 2022
-
-- **Bachelor of Engineering in Mechanical Engineering, 66.44%**  
-  _Savitribai Phule Pune University, India_  
-  Aug 2014 – April 2021
 
 ---
 
