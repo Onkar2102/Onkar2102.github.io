@@ -24,21 +24,28 @@ As I seek a Summer 2024 Co-op/Internship, I am eager to employ my advanced analy
 ---
 
 ### TECHNICAL SKILLS
-- Programming Languages: Python, SQL, Spark, Java
+- Programming Languages: Python, SQL, Apache Spark, Java
 - Data Visualization Tool: PowerBI
-- Azure Cloud Platform: Azure Databricks, Azure Data Factory...
+- Data Tool: Git, Azure Databricks, Azure Data Factory, Azure Data Lake Storage, Azure Synapse, Azure Logic App
+- Data Management and Analytics: Data Wrangling and Orchestration, Data Modeling, DBMS, Statistical Analysis
+- Machine Learning Techniques - Data Mining, Supervised Learning, Unsupervised Learning, ML Model Optimization, Algorithm Development
 
 ---
 
 ### TECHNICAL CERTIFICATES
 - DP-203: Azure Data Engineer Associate (Microsoft), 07/2023
 - PL-300: Power BI Data Analyst Associate (Microsoft), 01/2023
-- ...
+- DP-900: Azure Data Fundamentals (Microsoft), 10/2022
+- Databricks Accredited Lakehouse Fundamentals (Databricks), 10/2022
+- SQL - Advanced (HackerRank), 10/2022
+- AZ-900: Azure Fundamentals (Microsoft), 08/2022
+
 
 ---
 
 ### COMMUNITY INVOLVEMENT
-- Funded the construction of infrastructure in the village...
-- Built a water tank in the village with a capacity of 12,000 liters...
-- The DNA Club Member (2007–2010): Participated in field visits...
+- Funded the construction of infrastructure in the village where wedding and social functions could be conducted, with a capacity of 400 people
+- Built a water tank in the village with a capacity of 12,000 liters, whose construction was completed in April 2018. Water was used for 26 marriages and 12 social-cultural functions
+- The DNA Club Member (2007–2010):  Participated in field visits to increase awareness of flora and fauna. Conducted survey in summer holidays about the trees over 50 years old and their use in Ayurveda 
+
 
