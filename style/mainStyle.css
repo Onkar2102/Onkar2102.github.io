@@ -1,0 +1,105 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/*MAIN STLYE APPLIED TO THE WHOLE PAGE*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+/*VARIABLES - Set up our own color variables to reference them later*/
+:root{
+    --bg-color: #4e4e4e;
+    --second-bg-color:  #27272c;
+    --text-color: #fdfdfd;
+    --main-color: rgb(17, 54, 107);
+    --main-shadow-color: rgba(17, 18, 19, 0.675);
+    --main-trans-color:rgba(46, 51, 52, 0.62);
+}
+
+/*Set overall fontsize and overflow*/
+html {
+    font-size: 62.57%;
+    overflow-x: hidden;
+}
+
+/*Set position and height*/
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+/*SET THE SECTION SIZE and exclude the footer*/
+section:not(.footer){
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+/**********************************************
+        T E X T     S T Y L I N G
+**********************************************/
+/*Used for different color text*/
+span{
+    color: var(--main-color);
+}
+
+h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 650px;
+}
+
+h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+    font-weight: 400;
+}
+
+/********************************************
+      B A C K G R O U N D     I M G 
+*********************************************/
+.background-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+    display: block;
+    background-image: url("../images/coms1.jpg");
+    filter: blur(5px);
+    opacity: 35%;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+}

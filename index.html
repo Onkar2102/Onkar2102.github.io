@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name Portfolio</title>
+
+    <!--Style sheets from the web. Box-icon is for icons. jsdelivr is to create a swiper function-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--SWIPER FROM: https://www.jsdelivr.com/package/npm/swiper-->
+    <!--SWIPER API: https://swiperjs.com/swiper-api-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.4/swiper-bundle.min.css" />
+
+    <!--Personal Style Sheets-->
+    <link rel="stylesheet" href="style/mainStyle.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/animations.css">
+    <link rel="stylesheet" href="style/homeBody.css">
+</head>
+
+<body>
+    <!--Background Image-->
+    <div class="background-image"></div>
+
+    <!--Portfolio Navigation Bar-->
+    <header class="header">
+        <a href="#" class="logo">Onkar's Portfolio</a>
+
+        <nav class="navbar">
+            <a href="index.html" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About Me</a>
+            <a href="#education" style="--i:2">Education</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#work" style="--i:4">Projects</a>
+            <a href="#contact" style="--i:5">Contact Me</a>
+        </nav>
+    </header>
+
+    <!--Home/Portfolio Introduction Section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, my name is</h3>
+            <h1>Onkar Shelar</h1>
+            <!--Animated Text-->
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>
+                Driven Machine Learning enthusiast, poised to apply Advanced Analytics
+                and Machine Learning expertise to develop cutting-edge AI solutions,
+                while embracing challenges and driving impactful outcomes.
+                (Seeking Co-op/Internship for Summer'2024 and Onwards)
+            </p>
+            <!--Personal Website Links-->
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/onkarshelar/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <!--LinkedIn-->
+                <a href="https://github.com/Onkar2102" target="_blank"><i class='bx bxl-github'></i></a> <!--GitHub-->
+                <a href="#"><i class='bx bxs-file-pdf' onclick="downloadFile()"></i></a> <!--Resume Download-->
+            </div>
+            <!--Link to About Me Section-->
+            <a href="#about" class="btn">Learn More About Me</a>
+        </div>
+        <!--Floating Image
+        <div class="home-img">
+            <img src="images/coms5.png" alt="PortfolioImage">
+        </div>-->
+    </section>
+
+    <!--About Me Section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/coms3.jpg" alt="Portrait of Onkar">
+        </div>
+        <div class="about-content">
+            <h4 class="heading">About <span>Me</span></h4>
+            <h3>Title</h3>
+            <p>
+                I am Onkar, a fervent Machine Learning aficionado, currently advancing my expertise through a Master of
+                Science in Data Science at the Rochester Institute of Technology, anticipating completion in May 2025,
+                having a GPA of 4.00/4.00. My scholastic voyage includes a Post-Graduate Diploma in Big Data Analytics
+                from the Centre for Development of Advanced Computing, Pune, India, achieving a GPA of 3.91/4.00, and a
+                Bachelor of Engineering in Mechanical Engineering from Savitribai Phule Pune University, Pune, India,
+                with a GPA of 3.21/4.00.
+
+                My academic tapestry is rich and varied, encompassing key domains such as Software Engineering, Database
+                Architecture, Data Science Fundamentals, Analytics, Linux Shell Scripting, Cloud Infrastructure,
+                Advanced Predictive Modeling, Statistical Computing, Python and R scripting, Data Acquisition and
+                Database Management Systems, Big Data Ecosystems, Data Visualization techniques, and Java
+                Object-Oriented Design.
+
+                I am proficient in a suite of programming languages, including Python, SQL, Apache Spark, and Java. My
+                toolkit extends to data platforms and services like Git, Azure Databricks, Azure Data Factory, Azure
+                Data Lake Storage, Azure Synapse, and Azure Logic App. My capabilities in data strategy and analytics
+                include Data Cleaning and Transformation, Data Architecture, Database Management, Statistical Inference,
+                and Visual Analytics with Power BI. Furthermore, I am adept in Machine Learning methodologies, engaging
+                with Data Mining, Predictive and Descriptive Analytics, Model Tuning, and Advanced Algorithms.
+
+                Professionally, I contributed as an Associate Data Engineer at Fractal Analytics (May 2022 – May 2023),
+                spearheading comprehensive data pipeline projects, enhancing data integration, and refining data flow
+                operations.
+                Before this, I served as a Production Coordinator at Sandeep Plastic Industries (July 2018 - March
+                2020), where I
+                excelled in production planning, team development, and process enhancement. My industry exposure began
+                with a
+                Mechanical Engineering Internship at Sun-Axis Industries (July 2017 - June 2018), overseeing production
+                timelines and managing
+                project deliverables.
+
+                My technical proficiency is endorsed by certifications like Microsoft Certified: Azure Data Engineer
+                Associate, Power BI Data Analyst Associate, and Azure Data Fundamentals, among others. I have engaged in
+                substantial projects such as 'Building Machine Learning Algorithms from Scratch', 'Analyzing Job Posting
+                Authenticity', and 'Deriving Business Insights from Post-COVID Taxi Services', showcasing my capacity to
+                engineer ML algorithms, construct authenticity models for job listings, and dissect business tactics for
+                post-pandemic urban mobility solutions.
+
+                As I seek a Summer 2024 Co-op/Internship, I am eager to employ my advanced analytical skills and machine
+                learning acumen in crafting innovative AI strategies and solutions.
+
+
+            </p>
+        </div>
+    </section>
+
+    <!-- Education  -->
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="skills-container">
+            <!--Education-->
+            <div class="skills-box">
+                <i class='bx bx-book-bookmark'></i>
+                <!-- <h3>Education</h3> -->
+                <ul id="education">
+                    <li>Rochester Institute of Technology</li>
+                    <li>Degree: Master of Science</li>
+                    <li>Major: Data Science</li>
+                    <li>Graduation: 2025 (Expected)</li>
+                    <li>GPA: 4.0</li>
+                    <h5>Achievements</h5>
+                    <ul>
+                        <li>RIT Trustee Scholorship for international student with quality work experience and
+                            exceptional academic records</li>
+                        <li>Member of RIT Artificial Intelligence Club</li>
+                        <li>Member of RIT Data Science and Data Engineering Club</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-book-bookmark'></i>
+                <!-- <h3>Education</h3> -->
+                <ul id="education">
+                    <li>Center for Development of Advanced Computing</li>
+                    <li>Degree: Post-Graduate Diploma</li>
+                    <li>Major: Big Data Analytics</li>
+                    <li>Graduation: 2022</li>
+                    <li>GPA: 3.91</li>
+                    <h5>Achievements</h5>
+                    <ul>
+                        <li>Recieved the merit-based admission with 408th rank in all over India</li>
+                        <li>Recieved highest grade for capstone project till date</li>
+                        <li>Passed with rank in top 10 of the batch</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-book-bookmark'></i>
+                <!-- <h3>Education</h3> -->
+                <ul id="education">
+                    <li>Savitribai Phule Pune University</li>
+                    <li>Degree: Bachelor of Engineering</li>
+                    <li>Major: Mechanical Engineering</li>
+                    <li>Graduation: 2021</li>
+                    <li>GPA: 3.21</li>
+                    <h5>Achievements</h5>
+                    <ul>
+                        <li>Recieved Merit-based Scholarship of 50% from First year to Final Year</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Section-->
+    <section class="skills" id="skills">
+        <h2 class="heading">Technical Skills</h2>
+        <div class="skills-container">
+
+            <!--Programming Languages-->
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>General-Purpose Programming Languages
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                        </ul>
+                    </li>
+                    <li>Data-Intensive Programming Frameworks
+                        <ul>
+                            <li>Apache Spark</li>
+                        </ul>
+                    </li>
+                    <li>Database Query Languages
+                        <ul>
+                            <li>MySQL</li>
+                            <li>SQL Server</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Apache Spark</li>
+                    <li>MySQL</li>
+                </ul>
+            </div> -->
+            </div>
+
+
+            <div class="skills-box">
+                <!-- Data Visualization  -->
+                <div class="skills-box">
+                    <i class='bx bx-cog'></i>
+                    <h3>Data Visualization Tools</h3>
+                    <ul>
+                        <li>Business Intelligence and Visualization
+                            <ul>
+                                <li>Power BI</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="skills-box">
+                <!-- Data Tools and Platforms  -->
+                <div class="skills-box">
+                    <h3>Data Tools and Platforms</h3>
+                    <ul>
+                        <li>Version Control Systems
+                            <ul>
+                                <li>Git</li>
+                            </ul>
+                        </li>
+                        <li>Cloud Data Plaatforms and Services
+                            <ul>
+                                <li>Databricks</li>
+                                <li>Azure Data Factory</li>
+                                <li>Azure Data Lake Storage</li>
+                                <li>Azure Synapse</li>
+                                <li>Azure Logic App</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="skills-box">
+                <!-- Data Management and Analytics  -->
+                <div class="skills-box">
+                    <h3>Data Management and Analytics</h3>
+                    <ul>
+                        <li>Data Preparation and Transformation
+                            <ul>
+                                <li>Data Wrangling and Orchestration</li>
+                            </ul>
+                        </li>
+                        <li>Database management and Design
+                            <ul>
+                                <li>Data Modeling</li>
+                                <li>Database Management System</li>
+                            </ul>
+                        </li>
+                        <li>Statistical and Analytical techniques
+                            <ul>
+                                <li>Statistical Analysis</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <!-- Machine Learning Techniques  -->
+                <div class="skills-box">
+                    <h3>Machine Learning Techniques</h3>
+                    <ul>
+                        <li>Data Exploration and Understanding
+                            <ul>
+                                <li>Data Mining</li>
+                            </ul>
+                        </li>
+                        <li>Types of Machine Learning
+                            <ul>
+                                <li>Supervised Learning</li>
+                                <li>Unsupervised Learning</li>
+                            </ul>
+                        </li>
+                        <li>Machine Learning Development
+                            <ul>
+                                <li>ML Model Optimization</li>
+                                <li>Algorithm Development</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Software
+            <div class="skills-box">
+                <i class='bx bx-cog'></i>
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git</li>
+                    <li></li>
+                    <li>Adobe Suite</li>
+                    <li>Maya</li>
+                    <li>Unity</li>
+                    <li>Perforce</li>
+                    <li>VisualStudio</li>
+                    <li>VS Code</li>
+                    <li>Twine</li>
+                </ul>
+            </div> -->
+
+            <!-- Education
+            <div class="skills-box">
+                <i class='bx bx-book-bookmark'></i>
+                <h3>Education</h3>
+                <ul id="education">
+                    <li>Rochester Institute of Technology</li>
+                    <li>Major: Game Design and Development</li>
+                    <li>Minor: Creative Writing</li>
+                    <li>Expected Graduation: 2024</li>
+                    <li>GPA: 3.0</li>
+                    <li>RIT Trustee Scholorship for transfer students with exceptional academic records</li>
+                </ul>
+            </div> -->
+    </section>
+
+    <!--Portfolio Work Section-->
+    <section class="work" id="work">
+        <!--Swiper Main Container-->
+        <div class="swiper" class="portfolio">
+
+            <!--Swiper Title-->
+            <div class="portfolio-header">
+                <h4>Supervised Learning</h4>
+            </div>
+
+            <!--Swiper Wrapper and the slides-->
+            <div class="swiper-wrapper"><!--container-->
+
+                <!--Project 1 Name-->
+                <div class="swiper-slide"> <!--portBox-->
+                    <div class="swiper-slide">
+                        <img src="images/coms2.jpg" alt=""> <!--Swiper Image-->
+                        <!--Slide Up Overlay-->
+                        <div class="project-layer">
+                            <h3>Business Insights on Post-COVID Taxi Systems</h3>
+                            <p>
+                            <h5>Tens of thousands of commuters in NYC rely on taxis as a mode of transportation around
+                                the bustling metropolis. Data was stored on the cloud and its processing was done for
+                                Analytics. Using Machine Learning practices, the algorithm was created for predicting
+                                the fares pricing, and deployment of the model was achieved with Flask. Business
+                                insights from the processed data were extracted and the possible effect of COVID on
+                                future business was analyzed. Lastly, reporting was done using PowerBI.</h5>
+                            </p>
+                            <!--Link to project page      -->
+                            <!-- <a href="portfolioWork/placeholderProject.html"><i class='bx bx-link-external'></i></a> -->
+                            <a
+                                href="https://github.com/Onkar2102/DS-Projects/tree/main/Business%20Insights%20on%20Post-COVID%20Taxi%20Systems"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Project 2 Name-->
+                <div class="swiper-slide"> <!--portBox-->
+                    <div class="swiper-slide">
+                        <img src="images/Decision Tree From Scratch.png" alt=""> <!--Swiper Image-->
+                        <!--Slide Up Overlay-->
+                        <div class="project-layer">
+                            <h3>Decision Tree from Scratch</h3>
+                            <p>
+                                <h5>Implemented Decision Tree from Scratch, using libraries like Pandas and Numpy only</h5>
+                            </p>
+                            <!--Link to project page-->
+                            <a href="https://github.com/Onkar2102/Supervised-Learning/tree/main/DecisionTree"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Project 3 Name-->
+                <div class="swiper-slide"> <!--portBox-->
+                    <div class="swiper-slide">
+                        <img src="images/coms1.jpg" alt=""> <!--Swiper Image-->
+                        <!--Slide Up Overlay-->
+                        <div class="project-layer">
+                            <h4>Project Title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, mollitia!
+                                Similique et fugit alias nisi, quis pariatur tenetur, maxime fuga enim iusto
+                                sunt ea consequuntur earum facilis harum, itaque sequi?
+                            </p>
+                            <!--Link to project page-->
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Visual representation of which slide the user is on-->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!--Further Sections Below: You can duplicate the different swiper sections like so-->
+        <div class="swiper" class="portfolio">
+
+            <!--Swiper Title-->
+            <div class="portfolio-header">
+                <h4>Large Language Models</h4>
+            </div>
+
+            <!--Swiper Wrapper and the slides-->
+            <div class="swiper-wrapper"><!--container-->
+
+                <!--Project 1 Name-->
+                <div class="swiper-slide"> <!--portBox-->
+                    <div class="swiper-slide">
+                        <img src="images/Exploring Text Summarization - Using Langchain to Map Reduce.png" alt=""> <!--Swiper Image-->
+                        <!--Slide Up Overlay-->
+                        <div class="project-layer">
+                            <h3>Exploring Text Summarization - From Langchain to Map Reduce</h3>
+                            <p>
+                                <h5>To explore and evaluate the effectiveness of diverse methodologies, including Langchain,
+                                StuffDocumentChain, Map Reduce, and RefineChain, in the field of automated text
+                                summarization. This project aims to assess the strengths and limitations of each
+                                approach, develop efficient summarization strategies, and contribute to the advancement
+                                of AI-driven text analysis tools.</h5>
+                            </p>
+                            <!--Link to project page-->
+                            <a href="https://github.com/Onkar2102/LLM/tree/main/Exploring%20Text%20Summarization%20-%20From%20Langchain%20to%20Map%20Reduce"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Visual representation of which slide the user is on-->
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section> <!--End of Carisole/Swiper section-->
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <!--Title-->
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <!--Form from https://getform.io/-->
+        <!--Forms allow users to input text and submit them to your email-->
+        <form action="https://getform.io/f/db83deb4-ed4f-42ef-9297-973ed7b9caa7" method="POST">
+            <!--Top Input Box: User Name and Email Address-->
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+
+            <!--Subject Input Box: Subject line of the message-->
+            <div class="input-box">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+
+            <!--Message Input Box: User's Message-->
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+
+            <!--Submit Button-->
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <!--Copyrights go here-->
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Your Name | All Rights Reserved</p>
+        </div>
+        <!--Button to go Home-->
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-up-arrow-circle'></i></a>
+        </div>
+    </section>
+
+    <!--Scripts-->
+    <script type="module">
+        import swiper from 'https://cdn.jsdelivr.net/npm/swiper@10.3.0/+esm'
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.4/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="scripts/function.js"></script>
+
+</body>
+
+</html>
