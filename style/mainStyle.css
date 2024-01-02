@@ -14,13 +14,22 @@
 }
 
 /*VARIABLES - Set up our own color variables to reference them later*/
-:root{
+/* :root{
     --bg-color: #4e4e4e;
     --second-bg-color:  #27272c;
     --text-color: #fdfdfd;
     --main-color: rgb(17, 54, 107);
     --main-shadow-color: rgba(17, 18, 19, 0.675);
     --main-trans-color:rgba(46, 51, 52, 0.62);
+} */
+
+:root{
+    --bg-color: #f0f0f0;
+    --second-bg-color:  #ffffff;
+    --text-color: #333;
+    --main-color: #6a8caf;
+    --main-shadow-color: rgba(0, 0, 0, 0.2);
+    --main-trans-color:rgba(255, 255, 255, 0.7);
 }
 
 /*Set overall fontsize and overflow*/

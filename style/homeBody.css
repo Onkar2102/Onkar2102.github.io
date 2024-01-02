@@ -107,7 +107,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.contact form .input-box input,
+/* .contact form .input-box input,
 .contact form textarea{
     width: 100%;
     padding: 1.5rem;
@@ -116,7 +116,20 @@
     color: var(--text-color);
     border-radius: .8rem;
     margin: .7rem 0;
+} */
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    background: var(--bg-color);
+    font-size: 1.6rem;
+    color: var(--text-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
 }
+
+
 /*DISABLE RESIZING THE TEXT AREA*/
 .contact form textarea {
     resize: none;
