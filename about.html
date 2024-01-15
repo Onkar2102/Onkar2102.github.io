@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name Portfolio</title>
+
+    <!--Style sheets from the web. Box-icon is for icons. jsdelivr is to create a swiper function-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--SWIPER FROM: https://www.jsdelivr.com/package/npm/swiper-->
+    <!--SWIPER API: https://swiperjs.com/swiper-api-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.4/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+
+    <!--Personal Style Sheets-->
+    <link rel="stylesheet" href="style/mainStyle.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/animations.css">
+    <link rel="stylesheet" href="style/homeBody.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Onkar's Portfolio</a>
+        <nav class="navbar">
+            <a href="index.html" style="--i:1">Home</a>
+            <a href="about.html" class="active" style="--i:2">About Me</a>
+            <a href="index.html#skills" style="--i:3">Skills</a>
+            <a href="index.html#work" style="--i:4">Projects</a>
+            <a href="index.html#contact" style="--i:5">Contact Me</a>
+        </nav>
+    </header>
+
+    <!--About Me Section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/tesdt.png" alt="Portrait of Onkar">
+        </div>
+        <div class="about-content">
+            <h4 class="heading">About <span>Me</span></h4>
+            <!-- <h3>Title</h3> -->
+            <p>
+                I am <strong>Onkar</strong>, a fervent Machine Learning aficionado, currently advancing my expertise
+                through a <strong>Master of
+                    Science in Data Science</strong> at the Rochester Institute of Technology, anticipating completion
+                in May 2025,
+                having a GPA of <strong>4.00/4.00</strong>. My scholastic voyage includes a <strong>Post-Graduate
+                    Diploma in Big Data Analytics</strong>
+                from the Centre for Development of Advanced Computing, Pune, India, achieving a GPA of
+                <strong>3.91/4.00</strong>, and a
+                <strong>Bachelor of Engineering in Mechanical Engineering</strong> from Savitribai Phule Pune University, Pune, India,
+                with a GPA of <strong>3.21/4.00</strong>.
+            </p>
+            <p>
+                My academic tapestry is rich and varied, encompassing key domains such as Software Engineering, Database
+                Architecture, Data Science Fundamentals, Analytics, Linux Shell Scripting, Cloud Infrastructure,
+                Advanced Predictive Modeling, Statistical Computing, Python and R scripting, Data Acquisition and
+                Database Management Systems, Big Data Ecosystems, Data Visualization techniques, and Java
+                Object-Oriented Design.
+            </p>
+            <p>
+                I am proficient in a suite of programming languages, including Python, SQL, Apache Spark, and Java. My
+                toolkit extends to data platforms and services like Git, Azure Databricks, Azure Data Factory, Azure
+                Data Lake Storage, Azure Synapse, and Azure Logic App. My capabilities in data strategy and analytics
+                include Data Cleaning and Transformation, Data Architecture, Database Management, Statistical Inference,
+                and Visual Analytics with Power BI. Furthermore, I am adept in Machine Learning methodologies, engaging
+                with Data Mining, Predictive and Descriptive Analytics, Model Tuning, and Advanced Algorithms.
+            </p>
+            <p>
+                Professionally, I contributed as an Associate Data Engineer at Fractal Analytics (May 2022 – May 2023),
+                spearheading comprehensive data pipeline projects, enhancing data integration, and refining data flow
+                operations. Before this, I served as a Production Coordinator at Sandeep Plastic Industries (July 2018 -
+                March
+                2020), where I excelled in production planning, team development, and process enhancement. My industry
+                exposure began
+                with a Mechanical Engineering Internship at Sun-Axis Industries (July 2017 - June 2018), overseeing
+                production
+                timelines and managing project deliverables.
+            </p>
+            <p>
+                My technical proficiency is endorsed by certifications like Microsoft Certified: <strong>Azure Data
+                Engineer Associate</strong>, <strong>Power BI Data Analyst Associate</strong>, <strong>Azure Data
+                Fundamentals</strong>, and <strong>Azure Fundamentals</strong> among others. I have engaged in
+                substantial projects such as 'Building Machine Learning Algorithms from Scratch', 'Analyzing Job Posting
+                Authenticity', and 'Deriving Business Insights from Post-COVID Taxi Services', showcasing my capacity to
+                engineer ML algorithms, construct authenticity models for job listings, and dissect business tactics for
+                post-pandemic urban mobility solutions.
+            </p>
+            <!-- <p>
+                As I seek a Summer 2024 Co-op/Internship, I am eager to employ my advanced analytical skills and machine
+                learning acumen in crafting innovative AI strategies and solutions.
+            </p> -->
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <!--Copyrights go here-->
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Onkar Shelar | All Rights Reserved</p>
+        </div>
+        <!--Button to go Home-->
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-up-arrow-circle'></i></a>
+        </div>
+    </section>
+
+    <!--Scripts-->
+    <script type="module">
+        import swiper from 'https://cdn.jsdelivr.net/npm/swiper@10.3.0/+esm'
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.4/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="scripts/function.js"></script>
+
+</body>
+</html>

@@ -118,3 +118,112 @@ ul {
     padding: 5px 0;
     /* This adds some space between list items */
 }
+
+/* .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: #f9f9f9; /* or any background color you prefer */
+/* } */
+
+.contact {
+    padding: 4rem; /* Adjust the padding as per design */
+    background: var(--second-bg-color); /* Set a background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contact-info, .contact-form {
+    flex-basis: 48%; /* Adjust the width for responsiveness */
+    padding: 2rem;
+}
+
+.contact-info h3, .contact-form h3 {
+    margin-bottom: 1rem;
+    color: var(--main-color);
+}
+
+.contact-info p, .contact-details p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.contact-details p {
+    display: flex;
+    align-items: center;
+}
+
+.contact-details i {
+    margin-right: 10px; /* For spacing between icon and text */
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded borders */
+}
+
+.contact-form textarea {
+    height: 120px; /* Set a fixed height */
+    resize: vertical; /* Allows only vertical resizing */
+}
+
+.contact-form button {
+    padding: 1rem 2rem;
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: darken(var(--main-color), 10%); /* Slightly darken the button color on hover */
+}
+
+/* Add to your mainStyle.css file */
+.swiper-button-prev, .swiper-button-next {
+    background: #000; /* Arrow background color */
+    width: 50px; /* Arrow width */
+    height: 50px; /* Arrow height */
+    border-radius: 25px; /* Make it round */
+    position: absolute;
+    top: 50%; /* Align vertically */
+    transform: translateY(-50%); /* Center vertically */
+    color: #fff; /* Arrow color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.swiper-button-prev {
+    left: 10px; /* Space from left */
+}
+
+.swiper-button-next {
+    right: 10px; /* Space from right */
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-family: "Swiper icons"; /* This is for default Swiper icons */
+    font-size: 25px; /* Icon size */
+}
